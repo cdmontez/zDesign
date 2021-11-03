@@ -10,13 +10,13 @@ Copy these lines into the `<head>` tag in your HTML file:
 
 ```html
 
-<link href="/zdesign/mainStyle.css" rel="stylesheet" type="text/css"  />
+<link href="/zdesign/css/mainStyle.css" rel="stylesheet" type="text/css"  />
 
-<link href="/zdesign/darkTheme.css" rel="stylesheet">
+<link href="/zdesign/css/darkTheme.css" rel="stylesheet">
 
-<link href="/zdesign/lightTheme.css" rel="stylesheet" id="theme">
+<link href="/zdesign/css/lightTheme.css" rel="stylesheet" id="theme">
 
-<script src="/zdesign/themeSelector.js"></script>
+<script src="/zdesign/js/themeSelector.js"></script>
 
 ```
 
