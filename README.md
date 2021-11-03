@@ -3,7 +3,7 @@
 
 zStyle is a CSS style guide with both light and dark themes. This is the style guide I use in all of my web projects. This is the style guide I use in all of my web projects as of its creation (11/2/2021).
 
-### [Download](about:blank)
+### [Download](https://github.com/cdmontez/zStyle/)
 
 ## How to use
 
