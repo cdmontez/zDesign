@@ -21,4 +21,4 @@ Place the `zstyle` folder in the root of your website and link it using these li
 
 ## How to Use
 
-To Make a theme switcher, you can use the `hideLoader()` function.
+To Make a theme switcher, you can use the `changeTheme()` function.
