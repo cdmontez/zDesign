@@ -21,4 +21,4 @@ Download Files and Link them Using These Lines
 
 ```
 
-To Make a Theme-Switching Button, you can use the `hideLoader()` function.
+To Make a theme switcher, you can use the `hideLoader()` function.
