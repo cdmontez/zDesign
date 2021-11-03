@@ -5,7 +5,7 @@ zStyle is a CSS design system with both light and dark themes. This is the style
 
 ## Installation
 
-Place the `zstyle` folder in the root of your website and link it using these lines:
+Copy these lines into the `<head>` tag in your HTML file:
 
 ```html
 
