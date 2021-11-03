@@ -5,7 +5,7 @@ zStyle is a CSS style guide with both light and dark themes. This is the style g
 
 ### [Download](https://github.com/cdmontez/zStyle/archive/refs/heads/main.zip)
 
-## How to use
+## Installation
 
 Download Files and Link them Using These Lines
 
@@ -20,5 +20,7 @@ Download Files and Link them Using These Lines
 <script  src="/zstyle/themeSelector.js"></script>
 
 ```
+
+## How to Use
 
 To Make a theme switcher, you can use the `hideLoader()` function.
