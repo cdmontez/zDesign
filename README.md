@@ -5,17 +5,18 @@ zStyle is a CSS design system with both light and dark themes. This is the style
 
 ## Installation
 
+Drag the `zdesign` folder into your root directory.
 Copy these lines into the `<head>` tag in your HTML file:
 
 ```html
 
-<link href="https://raw.githubusercontent.com/cdmontez/zDesign/main/mainStyle.css" rel="stylesheet" type="text/css"  />
+<link href="/zdesign/mainStyle.css" rel="stylesheet" type="text/css"  />
 
-<link href="https://raw.githubusercontent.com/cdmontez/zDesign/main/darkTheme.css" rel="stylesheet">
+<link href="/zdesign/darkTheme.css" rel="stylesheet">
 
-<link href="https://raw.githubusercontent.com/cdmontez/zDesign/main/lightTheme.css" rel="stylesheet" id="theme">
+<link href="/zdesign/lightTheme.css" rel="stylesheet" id="theme">
 
-<script src="https://raw.githubusercontent.com/cdmontez/zDesign/main/themeSelector.js"></script>
+<script src="/zdesign/themeSelector.js"></script>
 
 ```
 
