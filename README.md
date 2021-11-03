@@ -3,8 +3,6 @@
 
 zStyle is a CSS design system with both light and dark themes. This is the style guide I use in all of my web projects. This is the design system I use in all of my web projects as of its creation (11/2/2021).
 
-### [Download](https://github.com/cdmontez/zStyle/archive/refs/heads/main.zip)
-
 ## Installation
 
 Place the `zstyle` folder in the root of your website and link it using these lines:
