@@ -1,5 +1,5 @@
 
-# zStyle
+# zDesign
 
 zStyle is a CSS design system with both light and dark themes. This is the style guide I use in all of my web projects. This is the design system I use in all of my web projects as of its creation (11/2/2021).
 
