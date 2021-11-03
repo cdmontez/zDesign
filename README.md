@@ -9,13 +9,13 @@ Place the `zstyle` folder in the root of your website and link it using these li
 
 ```html
 
-<link  href="/zstyle/mainStyle.css"  rel="stylesheet"  type="text/css"  />
+<link href="https://raw.githubusercontent.com/cdmontez/zDesign/main/mainStyle.css" rel="stylesheet" type="text/css"  />
 
-<link  href="/zstyle/darkTheme.css"  rel="stylesheet">
+<link href="https://raw.githubusercontent.com/cdmontez/zDesign/main/darkTheme.css" rel="stylesheet">
 
-<link  href="/zstyle/lightTheme.css"  rel="stylesheet"  id="theme">
+<link href="https://raw.githubusercontent.com/cdmontez/zDesign/main/lightTheme.css" rel="stylesheet" id="theme">
 
-<script  src="/zstyle/themeSelector.js"></script>
+<script src="https://raw.githubusercontent.com/cdmontez/zDesign/main/themeSelector.js"></script>
 
 ```
 
