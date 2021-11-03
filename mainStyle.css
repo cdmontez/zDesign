@@ -125,6 +125,9 @@ input:focus {
 label {
   color: #3E7BFA;
 }
+code {
+	font-family: 'Fira Code', monospace;
+}
 /*| Classes |*/
 .z-labelSmall {
 	font-size:10px;
