@@ -1,3 +1,53 @@
+/*| Colors |*/:root {
+	--primaryDarker: #3568d4;
+	--primaryMainColor: #3e7bfa;
+	--primaryLighter: #6698fa;
+	--primarySubtle: #ccddff;
+	--black0: #1c1c28;
+	--black1: #28293d;
+	--black2: #555770;
+	--black3: #8f90a6;
+	--black4: #c7c9d9;
+	--white0: #e4e4eb;
+	--white1: #ebebf0;
+	--white2: #f2f2f5;
+	--white3: #fafafc;
+	--white4: #ffffff;
+	--red0: #e53535;
+	--red1: #ff3b3b;
+	--red2: #ff5c5c;
+	--red3: #ff8080;
+	--red4: #ffe5e5;
+	--green0: #05a660;
+	--green1: #06c270;
+	--green2: #39d98a;
+	--green3: #57eba1;
+	--green4: #e3fff1;
+	--blue0: #004fc4;
+	--blue1: #0063f7;
+	--blue2: #5b8def;
+	--blue3: #9dbff9;
+	--blue4: #e5f0ff;
+	--yellow0: #e5b800;
+	--yellow1: #ffcc00;
+	--yellow2: #fddd48;
+	--yellow3: #fded72;
+	--yellow4: #fffee5;
+	--orange0: #e57a00;
+	--orange1: #ff8800;
+	--orange2: #fdac42;
+	--orange3: #fccc75;
+	--orange4: #fff8e5;
+	--teal0: #00b7c4;
+	--teal1: #00cfde;
+	--teal2: #73dfe7;
+	--teal3: #a9eff2;
+	--teal4: #e5ffff;
+	--purple0: #4d0099;
+	--purple1: #6600cc;
+	--purple2: #ac5dd9;
+	--purple3: #dda5e9;
+	--purple4: #ffe5ff;}
 /*| Elements |*/
 body {
 	font-size:16px;
@@ -55,6 +105,20 @@ h6 {
 	line-height:22px;
 	text-decoration:none;
 }
+button {
+	border: none;
+	padding: 15px 32px;
+	border-radius: 8px;
+	background-color: #3E7BFA;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+input[type="text"] {
+	border-radius: 8px;
+	padding: 8px;
+	font-weight: 500;
+	border: none;
+}
 input:focus {
   border: #3E7BFA;
 }
@@ -62,7 +126,7 @@ label {
   color: #3E7BFA;
 }
 /*| Classes |*/
-.labelSmall {
+.z-labelSmall {
 	font-size:10px;
 	font-family:"Inter";
 	font-weight:bold;
@@ -71,7 +135,7 @@ label {
 	letter-spacing:0.2px;
 	text-decoration:none;
 }
-.labelMedium {
+.z-labelMedium {
 	font-size:12px;
 	font-family:"Inter";
 	font-weight:bold;
@@ -80,7 +144,7 @@ label {
 	letter-spacing:0.2px;
 	text-decoration:none;
 }
-.labelLarge {
+.z-labelLarge {
 	font-size:14px;
 	font-family:"Inter";
 	font-weight:bold;
@@ -88,7 +152,7 @@ label {
 	line-height:24px;
 	text-decoration:none;
 }
-.body14 {
+.z-body14 {
 	font-size:14px;
 	font-family:"Inter";
 	font-weight:normal;
@@ -96,21 +160,21 @@ label {
 	line-height:24px;
 	text-decoration:none;
 }
-.display1 {
+.z-display1 {
 	font-size:64px;
 	font-family:"Inter";
 	font-weight:bolder;
 	font-style:normal;
 	text-decoration:none;
 }
-.display2 {
+.z-display2 {
 	font-size:56px;
 	font-family:"Inter";
 	font-weight:normal;
 	font-style:normal;
 	text-decoration:none;
 }
-.styleCapitalized {
+.z-styleCapitalized {
 	font-size:14px;
 	font-family:"Inter";
 	font-weight:normal;
@@ -118,13 +182,13 @@ label {
 	letter-spacing:2px;
 	text-decoration:none;
 }
-.styleBlockquote {
+.z-styleBlockquote {
 	font-size:20px;
 	font-family:"Inter";
 	line-height:28px;
 	text-decoration:none;
 }
-.styleLead {
+.z-styleLead {
 	font-size:14px;
 	font-family:"Inter";
 	font-weight:bolder;
@@ -132,19 +196,19 @@ label {
 	line-height:24px;
 	text-decoration:none;
 }
-.styleSmall {
+.z-styleSmall {
 	font-size:12px;
 	font-family:"Inter";
 	font-weight:normal;
 	font-style:normal;
 	text-decoration:none;
 }
-.styleTiny {
+.z-styleTiny {
 	font-size:10px;
 	font-family:"Inter";
 	text-decoration:none;
 }
-.center {
+.z-center {
   position: absolute;
   left: 50%;
   top: 50%;

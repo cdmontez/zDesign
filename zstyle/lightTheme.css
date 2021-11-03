@@ -1,84 +1,13 @@
-/*| Colors |*/:root {
-	--primaryDarker: #3568d4;
-	--primaryMainColor: #3e7bfa;
-	--primaryLighter: #6698fa;
-	--primarySubtle: #ccddff;
-	--black0: #1c1c28;
-	--black1: #28293d;
-	--black2: #555770;
-	--black3: #8f90a6;
-	--black4: #c7c9d9;
-	--white0: #e4e4eb;
-	--white1: #ebebf0;
-	--white2: #f2f2f5;
-	--white3: #fafafc;
-	--white4: #ffffff;
-	--red0: #e53535;
-	--red1: #ff3b3b;
-	--red2: #ff5c5c;
-	--red3: #ff8080;
-	--red4: #ffe5e5;
-	--green0: #05a660;
-	--green1: #06c270;
-	--green2: #39d98a;
-	--green3: #57eba1;
-	--green4: #e3fff1;
-	--blue0: #004fc4;
-	--blue1: #0063f7;
-	--blue2: #5b8def;
-	--blue3: #9dbff9;
-	--blue4: #e5f0ff;
-	--yellow0: #e5b800;
-	--yellow1: #ffcc00;
-	--yellow2: #fddd48;
-	--yellow3: #fded72;
-	--yellow4: #fffee5;
-	--orange0: #e57a00;
-	--orange1: #ff8800;
-	--orange2: #fdac42;
-	--orange3: #fccc75;
-	--orange4: #fff8e5;
-	--teal0: #00b7c4;
-	--teal1: #00cfde;
-	--teal2: #73dfe7;
-	--teal3: #a9eff2;
-	--teal4: #e5ffff;
-	--purple0: #4d0099;
-	--purple1: #6600cc;
-	--purple2: #ac5dd9;
-	--purple3: #dda5e9;
-	--purple4: #ffe5ff;}
 /*| Elements |*/
 body {
   background: #FFFFFF;
   color: #555770;
 }
-h1 {
-  color: #1C1C28;
-}
-h2 {
-  color: #1C1C28;
-}
-h3 {
-  color: #1C1C28;
-}
-h4 {
-  color: #1C1C28;
-}
-h5 {
-  color: #1C1C28;
-}
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #1C1C28;
 }
 button {
 	box-shadow:0.00px 4.00px 8.00px rgba(96,97,112,0.160);
-  border: none;
-  padding: 15px 32px;
-  border-radius: 8px;
-  background-color: #3E7BFA;
-  font-weight: 500;
-  color: #FFFFFF;
 }
 button:hover {
 	box-shadow:0.00px 16.00px 24.00px rgba(96,97,112,0.160);
@@ -89,64 +18,60 @@ button:active {
 input[type="text"] {
   color: #1C1C28;
   box-shadow: inset 0px 0.5px 4px rgba(96, 97, 112, 0.32);
-  border-radius: 8px;
-  padding: 8px;
-  font-weight: 500;
-  border: none;
   background: #FFFFFF;
 }
 /*| Classes |*/
-.display1 {
+.z-display1 {
   color: #1C1C28;
 }
-.display2 {
+.z-display2 {
   color: #1C1C28;
 }
-.styleCapitalized {
+.z-styleCapitalized {
   color: #1C1C28;
 }
-.styleBlockquote {
+.z-styleBlockquote {
   color: #1C1C28;
 }
-.styleLead {
+.z-styleLead {
   color: #1C1C28;
 }
-.styleSmall {
+.z-styleSmall {
   color: #1C1C28;
 }
-.styleTiny {
+.z-styleTiny {
   color: #1C1C28;
 }
 /*| Elevations |*/
-.elevation-01 {
+.z-elevation-01 {
 	box-shadow: inset 0px 0.5px 4px rgba(96, 97, 112, 0.32);
   background-color: #FFFFFF;
 }
-.elevation00 {
+.z-elevation00 {
 	box-shadow:0.00px 0.00px 0.00px rgba(0,0,0,0.000);
   background-color: #FFFFFF;
 }
-.elevation01 {
+.z-elevation01 {
 	box-shadow:0.00px 0.50px 2.00px rgba(96,97,112,0.160);
   background-color: #FFFFFF;
 }
-.elevation02 {
+.z-elevation02 {
 	box-shadow:0.00px 2.00px 4.00px rgba(96,97,112,0.160);
   background-color: #FFFFFF;
 }
-.elevation03 {
+.z-elevation03 {
 	box-shadow:0.00px 4.00px 8.00px rgba(96,97,112,0.160);
   background-color: #FFFFFF;
 }
-.elevation04 {
+.z-elevation04 {
 	box-shadow:0.00px 8.00px 16.00px rgba(96,97,112,0.160);
   background-color: #FFFFFF;
 }
-.elevation05 {
+.z-elevation05 {
 	box-shadow:0.00px 16.00px 24.00px rgba(96,97,112,0.160);
   background-color: #FFFFFF;
 }
-.elevation06 {
+.z-elevation06 {
 	box-shadow:0.00px 20.00px 32.00px rgba(96,97,112,0.240);
   background-color: #FFFFFF;
 }
