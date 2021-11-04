@@ -112,21 +112,21 @@ button {
 	background-color: #3E7BFA;
 	font-weight: 500;
 	color: #FFFFFF;
+	margin: 2px;
 }
 input[type="text"] {
 	border-radius: 8px;
 	padding: 8px;
 	font-weight: 500;
 	border: none;
-}
-input:focus {
-  border: #3E7BFA;
+	margin: 2px;
 }
 label {
   color: #3E7BFA;
 }
 code {
 	font-family: 'Fira Code', monospace;
+	padding: 2px;
 }
 /*| Classes |*/
 .z-labelSmall {
